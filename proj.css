@@ -1,0 +1,46 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /*width: 100%;*/
+}
+
+
+header{
+    height: 10%;
+}
+
+/*styling navbar*/
+nav{
+    display: flex;
+    height: 5%;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20%;
+    align-items: center;
+}
+
+#logo{
+    width: 5%;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+main{
+    height: 80%;
+    border: 1px;
+}
+
+footer{
+    height: 10%;
+}

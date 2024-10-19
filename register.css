@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+h2{
+    text-align: center;
+    margin: 2%;
+}
+
+form{
+    border: 1px solid black;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    height: 50%;
+    padding: 2%;
+
+}
+
+div{
+    padding: 2%;
+}
+button{
+    padding: 10px;
+    margin: 2%;
+}
+
+a{
+    text-decoration: none;
+}
