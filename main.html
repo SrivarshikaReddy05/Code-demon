@@ -6,6 +6,37 @@
     <title>SLIET Mentorship Platform</title>
 </head>
 <body>
-    
+    <header>
+    </header>
+
+    <section id="mentors">
+        <h2>Available Mentors</h2>
+        <div id="mentorList" class="mentor-list">
+            <!-- Mentors will be dynamically populated here -->
+        </div>
+    </section>
+
+    <section id="booking">
+        <h2>Book a Session</h2>
+        <div id="bookingForm">
+            <label for="mentorSelect">Select Mentor:</label>
+            <select id="mentorSelect">
+                <!-- Mentors' names will be populated dynamically -->
+            </select>
+
+            <label for="availableSlots">Available Slots:</label>
+            <select id="availableSlots">
+                <!-- Time slots will be populated dynamically -->
+            </select>
+
+            <button id="bookSession">Book Session</button>
+        </div>
+    </section>
+
+    <section id="confirmation">
+        <h2>Booking Confirmation</h2>
+        <p id="confirmationMessage"></p>
+    </section>
+
 </body>
 </html>
